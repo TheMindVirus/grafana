@@ -1,5 +1,5 @@
 # grafana
-Data Visualiser Server showing NVIDIA GPU Temperature using InfluxDB, telegraf and nvidia-smi
+Data Visualiser Server showing NVIDIA GPU Temperature using Grafana, InfluxDB, telegraf and nvidia-smi
 
 ### WARNING: The software in this repository is experimental and may not work as expected on first run!
 
