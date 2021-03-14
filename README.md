@@ -30,7 +30,7 @@ Default Username = `admin`
 Default Password = `admin`
 
 ## Links
-Grafana: https://grafana.com/ \
-InfluxDB: https://www.influxdata.com/ \
-Telegraf: https://www.influxdata.com/time-series-platform/telegraf/ \
+Grafana: https://grafana.com \
+InfluxDB: https://www.influxdata.com \
+Telegraf: https://www.influxdata.com/time-series-platform/telegraf \
 NVidia SMI: https://developer.nvidia.com/nvidia-system-management-interface
