@@ -10,7 +10,7 @@ Data Visualisation Server showing NVidia GPU Temperature using InfluxDB, telegra
 Extract to `C:\Program Files\` for compatibility with original container.
 
 Copy `nvidia-smi.exe` from `C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_272b5c540127d6d2\nvidia-smi.exe`
-and paste into `C:\Program Files\NVIDIA Corporation\NVSMI\` if not already there.
+\n and paste into `C:\Program Files\NVIDIA Corporation\NVSMI\` if not already there.
 
 Grafana Dashboard URL = `http://localhost:8085`
 
