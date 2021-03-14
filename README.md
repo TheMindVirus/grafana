@@ -3,9 +3,9 @@ Data Visualisation Server showing NVidia GPU Temperature using InfluxDB, telegra
 
 ### WARNING: This software is experimental and may not work as expected on first run.
 
-[Grafana(https://github.com/TheMindVirus/grafana/blob/main/Grafana.png)]
+![Grafana](https://github.com/TheMindVirus/grafana/blob/main/Grafana.png)
 
-### Notes
+### Installation Notes
 
 Extract to C:\Program Files\ for compatibility with original container
 
