@@ -3,18 +3,27 @@ Data Visualisation Server showing NVidia GPU Temperature using InfluxDB, telegra
 
 ### WARNING: This software is experimental and may not work as expected on first run.
 
-[Grafana(https://www.google.co.uk)]
+[Grafana(https://github.com/TheMindVirus/grafana/blob/main/Grafana.png)]
 
 ### Notes
 
 Extract to C:\Program Files\ for compatibility with original container
 
+Copy `nvidia-smi.exe` from `C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_272b5c540127d6d2\nvidia-smi.exe` and paste into `C:\Program Files\NVIDIA Corporation\NVSMI\` if not already there
+
 Grafana Dashboard URL = "http://localhost:8085"
+
 Influx DataSource URL = "http://localhost:8086"
+
 Influx DataSource Database Name = "telegraf"
+
 Telegraf Query From = "autogen" "nvidia_smi"
+
 Telegraf Query Select = "field(temperature_gpu)" "mean()"
+
 Telegraf Query Group = "time(1s)" "fill(null)"
 
+
 Default Username = "admin"
+
 Default Password = "admin"
