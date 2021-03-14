@@ -1,11 +1,11 @@
 # grafana
 Data Visualisation Server showing NVidia GPU Temperature using InfluxDB, telegraf and nvidia-smi
 
-### WARNING: The software in this repository is experimental and may not work as expected on first run!
+## WARNING: The software in this repository is experimental and may not work as expected on first run!
 
 ![Grafana](https://github.com/TheMindVirus/grafana/blob/main/Grafana.png)
 
-### Installation Notes
+## Installation Notes
 
 Extract to `C:\Program Files\` for compatibility with original container.
 
